@@ -1,0 +1,69 @@
+/* Example media query for screens smaller than 800px */
+@media only screen and (max-width: 400px){
+    body{
+        width: 100%; /* Change width to 100% on smaller screens */
+        background-color: aqua;
+    }
+}
+
+
+html{
+    background-color: pink;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    font-size: medium;
+}
+
+#main{
+
+    width: 350px;
+    position: absolute;
+    top: 40%;
+    left: 52%;
+    align-items: center;
+    align-content: center;
+    transform: translate(-50%, -50%); /* Shifts back by half its size */
+  
+}
+
+img{
+    margin-top: 45px;
+    position: absolute;
+    top: 190%;
+    left: 40%;
+    transform: translate(-50%, -50%)
+}
+
+#message{
+    padding-bottom: 5px;
+    margin-top: -18px;
+}
+
+
+.btn:nth-child(2n+1){  
+
+    margin-top: 40px;
+    border-radius: 5px;
+    padding: 4px;
+    width: 40px;
+    border: 2px solid rgb(250, 250, 250);
+    color: pink;
+    background-color: rgb(3, 3, 3);
+    position: absolute;
+    top: 66%;
+    left: 63%;
+    transform: translate(-50%, -50%); /* Shifts back by half its size */
+}
+.btn:nth-child(2n){
+    margin-left: px;
+    margin-top: 36px;
+    border-radius: 5px;
+    padding: 3px;
+    position: absolute;
+    border: 2px solid black;
+    width: 40px;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 30%;
+}
